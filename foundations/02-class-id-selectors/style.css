@@ -6,6 +6,7 @@
 #second-number{
     color: #0033EE;
     font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .odd-numbers.cooler{
@@ -16,4 +17,5 @@
     background-color: #83FF2B;
     font-size: 24px;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
