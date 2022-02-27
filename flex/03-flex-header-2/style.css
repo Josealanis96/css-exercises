@@ -13,8 +13,12 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+
+.left-items{
+  display: flex;
+  gap: 16px;
 }
 
 .profile-image {
@@ -30,6 +34,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 10px;
 }
 
 button {
@@ -52,7 +57,7 @@ ul {
 
 .links{
   display: inline-flex;
-  margin-right: auto;
+  padding: 0px;
   gap: 16px;
 }
 
@@ -62,7 +67,9 @@ ul {
 
 .profile{
   display: flex;
+  justify-self: flex-end;
   align-items: center;
   gap: 16px;
   margin-right: 8px;
+  margin-left: auto;
 }
